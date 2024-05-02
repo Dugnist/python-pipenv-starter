@@ -1,4 +1,4 @@
-# Python 3 Simple Starter Template with Pipenv (Project Dependencies Manager)
+# Python 3 Pure Starter Template with Pipenv (Project Dependencies Manager)
 
 ## 1. Setting up Python before launching the project:
 
@@ -67,10 +67,22 @@ pip install --upgrade pip
 pip install --user pipenv
 ```
 
-#### Install Project Dependencies Manager (pipenv) [maybe with sudo]:
+#### Run the project using Pipfile script "dev":
 
 ```bash
 pipenv run dev
+```
+
+#### To install new packages with pipenv:
+
+```bash
+pipenv install [package_name]
+```
+
+#### To install all packages from Pipfile:
+
+```bash
+pipenv install
 ```
 
 ## If you want to share your code with someone, but make it unreadable:
